@@ -20,12 +20,12 @@ The **Video Object Detection Pipeline** is a C++ project that implements a compl
    - Install FFmpeg:
      ```bash sudo apt install ffmpeg libavcodec-dev libavformat-dev libavutil-dev ```
    - Install OpenCV:
-     ```bash sudo apt install libopencv-dev ``` 
+     ```bash sudo apt install libopencv-dev ```
 5. Build the project:
    ```bash mkdir```
    ```bash build cd ```
-   ```bash build cmake ..
-   ```make ```
+   ```bash build cmake ..```
+   ```bash make ```
 ## Usage
 To use the video processing pipeline, you can run the executable with the input video file as follows: 
 ```bash ./VideoProcessingPipeline input_video.mp4 output_video.mp4 ``` Replace `input_video.mp4` with the path to your input video file and `output_video.mp4` with the desired output filename.
