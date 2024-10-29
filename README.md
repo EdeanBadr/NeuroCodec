@@ -9,26 +9,26 @@ The **Video Object Detection Pipeline** is a C++ project that implements a compl
 - Decode video files using FFmpeg. - Perform object detection with bounding box visualization using OpenCV. - Re-encode processed frames back to a video format. - Supports multiple video formats and resolutions.
 ## Requirements
 - C++11 or later
-- OpenCV (version x.x.x)
+- OpenCV (version 4.6.0)
 - FFmpeg libraries (libavcodec, libavformat, libavutil)
 - CMake (for building the project)
 ## Installation
 1. Clone the repository:
-```bash git clone https://github.com/EdeanBadr/VideoObjectDetectionPipeline.git```
-```bash cd VideoObjectDetectionPipeline ``` 
+``` git clone https://github.com/EdeanBadr/VideoObjectDetectionPipeline.git```
+``` cd VideoObjectDetectionPipeline ``` 
 3. Install the required libraries:
    - Install FFmpeg:
-     ```bash sudo apt install ffmpeg libavcodec-dev libavformat-dev libavutil-dev ```
+     ``` sudo apt install ffmpeg libavcodec-dev libavformat-dev libavutil-dev ```
    - Install OpenCV:
-     ```bash sudo apt install libopencv-dev ```
+     ``` sudo apt install libopencv-dev ```
 5. Build the project:
-   ```bash mkdir```
-   ```bash build cd ```
-   ```bash build cmake ..```
-   ```bash make ```
+   ``` mkdir```
+   ``` build cd ```
+   ``` build cmake ..```
+   ``` make ```
 ## Usage
 To use the video processing pipeline, you can run the executable with the input video file as follows: 
-```bash ./VideoProcessingPipeline input_video.mp4 output_video.mp4 ``` Replace `input_video.mp4` with the path to your input video file and `output_video.mp4` with the desired output filename.
+  ``` ./VideoProcessingPipeline input_video.mp4 output_video.mp4 ``` Replace `input_video.mp4` with the path to your input video file and `output_video.mp4` with the desired output filename.
 ## Example
 A basic example of how to utilize the classes in the pipeline can be found in the `main.cpp` file. You can modify this file to suit your specific use case and input files.
 ## Contributing
