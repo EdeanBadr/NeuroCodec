@@ -15,11 +15,11 @@ The **Video Object Detection Pipeline** is a C++ project that implements a compl
 ## Installation
 1. Clone the repository:
 ```bash git clone https://github.com/EdeanBadr/VideoObjectDetectionPipeline.git```
-```cd VideoObjectDetectionPipeline ``` 
+```bash cd VideoObjectDetectionPipeline ``` 
 3. Install the required libraries:
    - Install FFmpeg:
-     ```bash sudo apt install ffmpeg libavcodec-dev libavformat-dev libavutil-dev ``` 
-      Install OpenCV:
+     ```bash sudo apt install ffmpeg libavcodec-dev libavformat-dev libavutil-dev ```
+   - Install OpenCV:
      ```bash sudo apt install libopencv-dev ``` 
 5. Build the project:
    ```bash mkdir```
