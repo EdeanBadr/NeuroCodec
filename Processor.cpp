@@ -4,7 +4,7 @@
 #include <iostream>
 
 Processor::Processor() : sws_context(nullptr) {
-    std::string modelPath = "yolov5s.onnx";
+    std::string modelPath = "../Model/yolov5s.onnx";
     try {
         net = cv::dnn::readNet(modelPath);
         if (net.empty()) {
@@ -12,7 +12,7 @@ Processor::Processor() : sws_context(nullptr) {
             throw std::runtime_error("Model loading failed");
         }
         std::cout << "Model loaded successfully" << std::endl;
-        loadClassList("coco.names");
+        loadClassList("../Model/coco.names");
     } catch (const cv::Exception& e) {
         std::cerr << "OpenCV error during model loading: " << e.what() << std::endl;
         throw;
