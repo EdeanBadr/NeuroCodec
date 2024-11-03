@@ -14,7 +14,9 @@ The **Video Object Detection Pipeline** is a C++ project that implements a compl
 - CMake (for building the project)
 ## Installation
 1. Clone the repository:
-``` git clone https://github.com/EdeanBadr/VideoObjectDetectionPipeline.git```
+```
+ git clone https://github.com/EdeanBadr/VideoObjectDetectionPipeline.git
+```
 ``` cd VideoObjectDetectionPipeline ``` 
 3. Install the required libraries:
    - Install FFmpeg:
