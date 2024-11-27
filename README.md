@@ -1,6 +1,6 @@
-# Video Object Detection Pipeline
+# NeuroCodec
 ## Overview
-The **Video Object Detection Pipeline** is a C++ project that implements a complete video processing workflow using FFmpeg and OpenCV libraries. This project features three primary classes: 
+The ** NeuroCodec ** is a C++ project that implements a complete video processing workflow using FFmpeg and OpenCV libraries. This project features three primary classes: 
 - **Decoder**: Responsible for decoding video files and frames.
 - **Processor**: Handles object detection and draws bounding boxes around detected objects.
 - **Encoder**: Re-encodes the processed video frames back into a video file. This pipeline allows users to efficiently process video files and perform object detection in real-time.
